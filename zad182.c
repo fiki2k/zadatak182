@@ -7,7 +7,7 @@ int main()
 {
     int i,N;
     float suma;
-    int count;
+    int brojac;
 
 
     printf("Unesi koliko koraka da radi : ");
@@ -19,7 +19,7 @@ int main()
     for(i=1;i<=N;i++)
     {
         suma = suma +  ( (float)(pow(count,2)) / (float)(pow(count,3)) );
-        count+=2;
+        brojac+=2;
     }
 
 
