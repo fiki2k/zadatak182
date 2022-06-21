@@ -15,10 +15,10 @@ int main()
 
     suma=0.0f;
 
-    count=1;
+    brojac=1;
     for(i=1;i<=N;i++)
     {
-        suma = suma +  ( (float)(pow(count,2)) / (float)(pow(count,3)) );
+        suma = suma +  ( (float)(pow(brojac,2)) / (float)(pow(brojac,3)) );
         brojac+=2;
     }
 
